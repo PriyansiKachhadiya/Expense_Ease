@@ -1,6 +1,6 @@
 # Expense_Ease
 
-A full-stack web application to manage and track expenses. Users can create accounts, add/edit/delete expenses, and view a detailed expense history categorized by month.
+A full-stack(MERN) web application to manage and track expenses. Users can create accounts, add/edit/delete expenses, and view a detailed expense history categorized by month.
 
 Features
 -User signup and login with secure password hashing.
