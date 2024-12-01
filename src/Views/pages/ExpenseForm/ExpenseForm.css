@@ -1,0 +1,54 @@
+.formdiv {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formElement {
+    margin-bottom: 16px !important;/* Adds space between form elements */
+  }
+  
+  .formElement:last-of-type {
+    margin-bottom: 0; /* Removes margin for the last element */
+  }
+  
+  button.formElement {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
+  button[type="reset"] {
+    background-color: #e0e0e0;
+    color: #333;
+    margin-top: 8px;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    background-color:  #4a90e2;
+    color: white;
+    margin-top: 8px;
+    outline: none;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="reset"]:hover {
+    opacity: 0.9;
+    outline: none;
+  }
+  

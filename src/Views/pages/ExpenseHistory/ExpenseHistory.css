@@ -1,0 +1,31 @@
+.expense-history{
+    margin-top: 3rem;
+    padding:2rem;
+}
+.expense-history h3{
+    margin-bottom: 1rem;
+}
+.expense-history .filters{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+@media (max-width:700px){
+    .expense-history .filters{
+        width: 100%;   
+    }
+}
+.summary{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.pagination{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.editform-card{
+    padding: 1rem;
+}

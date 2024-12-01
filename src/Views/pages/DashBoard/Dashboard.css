@@ -1,0 +1,70 @@
+.dashboardDiv{
+  margin-top: 4rem;
+}
+.expense-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  overflow-y: auto;
+  max-height: 350px;
+  
+}
+
+.expense-menu-list {
+  width: 100%;
+  /* border-bottom: 1px solid #F5F7FA; */
+}
+.expense-menu-list:nth-child(even) {
+  background-color: #f5f7fa;
+}
+
+.chartMenu {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.chartdiv {
+  width: 80%;
+}
+
+.CommonBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.summary-card-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 1rem;
+}
+.summary-card {
+  color: #2c3e50;
+}
+
+@media (max-width: 850px) {
+  .summary-card-menu {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .CommonBox {
+    flex-direction: column;
+  }
+  .chartMenu {
+    width: 80%;
+  }
+  .chartdiv {
+    width: 100%;
+  }
+  .expense-menu-list {
+    width: 100%;
+  }
+}
