@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 const sessionOptions = {
-  secret:"mysupersecretcode",
+  secret:process.env.SECRET,
   resave:false,
   saveUninitialized :true,
   cookie:{
